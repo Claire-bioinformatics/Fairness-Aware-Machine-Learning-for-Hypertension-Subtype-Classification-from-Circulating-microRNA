@@ -103,24 +103,6 @@ This ensures that rare but clinically important subtypes are not overlooked.
 - Matplotlib, seaborn  
 - SLURM (HPC)  
 
----
-
-## 📁 Repository Structure
-├── README.md
-├── report/
-├── figures/
-│ ├── main/
-│ └── supplementary/
-├── src/
-├── slurm/
-├── results/
-└── data_example/
-
-
----
-
-
-
 ## ▶️ How to Run
 
 Clone the repository:
