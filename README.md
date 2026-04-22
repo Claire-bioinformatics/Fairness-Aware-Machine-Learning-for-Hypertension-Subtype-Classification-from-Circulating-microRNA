@@ -120,6 +120,7 @@ This ensures that rare but clinically important subtypes are not overlooked.
 ---
 
 
+
 ## ▶️ How to Run
 
 Clone the repository:
@@ -128,12 +129,16 @@ Clone the repository:
 git clone <your-repo-url>
 cd <repo-name>
 ```
+
 Install dependencies:
-```
+
+```bash
 pip install -r requirements.txt
 ```
+
 Run a model (example):
 
+```bash
 python src/models/random_forest_gridsearch.py
-
+```
 
