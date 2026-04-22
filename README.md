@@ -133,7 +133,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 Run a model (example):
-```
+
 python src/models/random_forest_gridsearch.py
-```
+
 
