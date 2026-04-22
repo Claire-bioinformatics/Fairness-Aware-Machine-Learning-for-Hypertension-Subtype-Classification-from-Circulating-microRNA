@@ -9,3 +9,10 @@ Circulating microRNAs offer a non-invasive biomarker — but classification is c
 - severe class imbalance
 - small sample sizes for rare subtypes
 - high-dimensional biological data
+
+## Why This Is Challenging
+
+- Minority classes (e.g., Cushing’s syndrome) are underrepresented
+- Standard accuracy is misleading in imbalanced datasets
+- Models tend to ignore clinically important rare subtypes
+- Trade-off between overall performance and minority detection
