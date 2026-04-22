@@ -1,12 +1,12 @@
 # Fairness-Aware Machine Learning for Hypertension Subtype Classification from Circulating microRNA
 
-> ⚠️ This project follows reproducible ML practices, including fixed seeds, stratified cross-validation, and fairness-aware evaluation for imbalanced biomedical data.
+> This project follows reproducible ML practices, including fixed seeds, stratified cross-validation, and fairness-aware evaluation for imbalanced biomedical data.
 
 ML pipeline for imbalanced multi-class classification of endocrine hypertension using circulating microRNA, **improving rare subtype detection (0.00 → 0.71 sensitivity)** through fairness-aware evaluation, hyperparameter optimization, and ensemble learning.
 
 ---
 
-## 🧬 Problem
+## Problem
 
 Endocrine hypertension subtypes (e.g., Cushing’s syndrome, primary aldosteronism, PPGL) are frequently misdiagnosed as primary hypertension, leading to delayed or inappropriate treatment.
 
@@ -18,16 +18,16 @@ Circulating microRNAs offer a promising **non-invasive biomarker**, but classifi
 
 ---
 
-## ⚠️ Why This Is Challenging
+## Why This Is Challenging
 
 - Minority classes (e.g., Cushing’s syndrome) are underrepresented  
-- Standard accuracy is misleading in imbalanced datasets  
+- **Standard accuracy is misleading in imbalanced datasets**
 - Models tend to favor majority classes and ignore rare but clinically critical subtypes  
 - There is a trade-off between overall performance and minority-class detection  
 
 ---
 
-## 🧠 Key Idea
+## Key Idea
 
 Instead of optimizing for overall accuracy, this project prioritizes **fairness-aware evaluation**:
 
@@ -38,7 +38,7 @@ This ensures that rare but clinically important subtypes are not overlooked.
 
 ---
 
-## ⚙️ Approach
+## Approach
 
 ### Models
 - Random Forest  
@@ -62,7 +62,7 @@ This ensures that rare but clinically important subtypes are not overlooked.
 
 ---
 
-## 📊 Key Results
+## Key Results
 
 - Improved sensitivity for smallest class (Cushing’s syndrome):  
   - **0.00 → 0.71**  
@@ -73,17 +73,17 @@ This ensures that rare but clinically important subtypes are not overlooked.
 
 ---
 
-## 📈 Model Performance
+## Model Performance
 
 ![Performance](figures/main/performance.png)
 
-## 🔍 Model Interpretation (SHAP)
+## Model Interpretation (SHAP)
 
 ![SHAP](figures/main/shap.png)
 
 ---
 
-## 🧪 Technical Highlights
+## Technical Highlights
 
 - Imbalanced multi-class classification  
 - Fairness-aware model evaluation  
@@ -94,7 +94,7 @@ This ensures that rare but clinically important subtypes are not overlooked.
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - Python (scikit-learn, XGBoost, CatBoost)  
 - Optuna  
@@ -103,7 +103,7 @@ This ensures that rare but clinically important subtypes are not overlooked.
 - Matplotlib, seaborn  
 - SLURM (HPC)  
 
-## ▶️ How to Run
+## How to Run
 
 Clone the repository:
 
