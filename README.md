@@ -3,7 +3,7 @@
 > This project follows reproducible ML practices, including fixed seeds, stratified cross-validation, and fairness-aware evaluation for imbalanced biomedical data.
 
 ML pipeline for imbalanced multi-class classification of endocrine hypertension using circulating microRNA, **improving rare subtype detection (0.00 → 0.71 sensitivity)** through fairness-aware evaluation, hyperparameter optimization, and ensemble learning.
-![SENSITIVITY](figures/cs_sensitivity.png)
+![SENSITIVITY](figures/CS_sensitivity.png)
 
 ---
 
