@@ -76,11 +76,12 @@ This ensures that rare but clinically important subtypes are not overlooked.
 
 ## Model Performance
 
-![Performance](figures/main/performance.png)
+![SENSITIVITY](figures/sensitivity_png.png)
+![BA](figures/balanced_accuracy.png)
 
 ## Model Interpretation (SHAP)
 
-![SHAP](figures/main/shap.png)
+![SHAP](figures/SHAP_cs.png)
 
 ---
 
