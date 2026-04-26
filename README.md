@@ -41,6 +41,8 @@ This ensures that rare but clinically important subtypes are not overlooked.
 
 ## Approach
 
+All model training, tuning, and stacking pipelines are implemented as modular Python scripts in the `src/` directory, with corresponding SLURM job files for HPC execution in the `slurm/` directory.
+
 ### Models
 - Random Forest  
 - XGBoost  
